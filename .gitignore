@@ -1,0 +1,40 @@
+# Ignore compiled binaries
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore dependencies
+/node_modules
+/vendor
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.log.*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore package manager directories
+/pip-cache/
+/yarn-error.log
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore configuration files
+*.config
+
+# Ignore miscellaneous files
+*.bak
+*.tmp
+*.swp
